@@ -8,9 +8,9 @@ Memory: simulates contiguous memory allocation with “First-Fit” approach.
 Usage:
 
 At the start, program asks the user three questions:
-	•	How much RAM memory is there on the simulated computer? program receives the number in bytes up to 4 billions.
-	•	How many hard disks the simulated computer has? Enumeration of hard disks starts with 0.
-	•	How many printers the simulated computer has? Enumeration of printers starts with 0.
+	How much RAM memory is there on the simulated computer? (in bytes up to 4 billions).
+	How many hard disks the simulated computer has? (up to 10).
+	How many printers the simulated computer has? (up to 10).
 
 After these questions are answered, the simulation begins. The program constantly listens for the user inputs. The user inputs signal some system events. The program simulates the corresponding system behavior. 
 
